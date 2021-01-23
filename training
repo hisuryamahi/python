@@ -69,3 +69,513 @@ mystring[2:7:2]
 mystring[2:4:-3]
 
 mystring[2::-3]
+2+1
+
+4%3
+
+
+
+
+
+```
+# This is formatted as code
+```
+
+
+
+a=5
+
+a=a+a
+
+a
+
+a+a
+
+type(a)
+
+
+
+indexing n slicing with string
+
+mystring = " hello World"
+
+mystring
+
+
+
+indexing - single charachter of string
+
+mystring[0]
+
+mystring="Hello World"
+
+mystring
+
+mystring[0]
+
+mystring[4]
+
+mystring[5]
+
+
+
+slicing - subsection of string
+
+mystring[:3]
+
+mystring[2:]
+
+mystring[3:6]
+
+mystring[1:5]
+
+mystring[-2]
+
+Step size
+
+mystring[::]
+
+mystring[::-2]
+
+mystring[2:7:2]
+
+mystring[2:4:-3]
+
+mystring[2::-3]
+
+my_income = 1000
+tax_rate = 0.1
+my_tax = my_income * tax_rate
+
+my_tax
+
+print("Hello me")
+
+print("hello \nme \nyou")
+
+len("hello")
+
+print('hello \tme')
+
+string = "Hello world"
+
+string[-3]
+
+string = "tinker"
+
+string[1:4]
+
+
+
+string properties
+
+     
+
+immunibility
+
+name="sam"
+
+n#ame[0]=p
+
+name[1]
+
+last_letters = name[1:]
+
+last_letters
+
+'p'+last_letters
+
+x='Hello world'
+
+x+'its me'
+
+letter='z'
+
+letter*5
+
+2+3
+
+'2'+'3'
+
+x= 'Hello World'
+
+x.upper()
+
+x.lower()
+
+x.split()
+
+x.split('l')
+
+
+
+formatting with .format method
+
+print('This is a foc {}'.format('Inserted'))
+
+print('This {c} {b} {f}'.format(f='fox', b='brown', c='quick'))
+
+print('This {f} {b} {f}'.format(f='fox', b='brown', c='quick'))
+
+
+
+float formatting follows "{value:width.precision f}"
+
+result=100/777
+
+result
+
+print("This value is {}".format(result))
+
+print("This value is {r:1.3f}".format(r=result))
+
+print("This value is {r:10.3f}".format(r=result))
+
+print("This value is {r:7.3f}".format(r=10000.3456677))
+
+name ="sam"
+
+print(f'The name is {name}')
+
+name="sunny"
+age="20"
+
+print(f'{name} is {age} years old.')
+
+
+
+**LIST **
+
+MY_LIST = [1,2,3]
+
+len(MY_LIST)
+
+my_length = ['String',30, 60.2 ]
+
+len(my_length)
+
+my_length[0]
+
+my_length[2]
+
+my_length[1:]
+
+my_length[:-1]
+
+another_list = ['about', 'us' ]
+
+my_length + another_list
+
+my_new_list = my_length + another_list
+
+my_new_list
+
+my_new_list[0]
+
+my_new_list.append('six')
+
+my_new_list
+
+my_new_list.pop()
+
+my_new_list
+
+poped_item = my_new_list.pop()
+
+poped_item
+
+my_new_list.pop(1)
+
+A_list=['1','2','5','4','3']
+B_list = ['a','b','c','f','e','d']
+
+B_list.reverse()
+
+A_list.sort()
+
+
+
+ry
+
+**dictionary vs list** 
+Disctionary: unordered mapping for storing objects | its a key-value pair hence help user to grab objects without knowing the index location.
+it uses curly braces{} | tuples use parathesis() | list uses []
+**list**: store object in an ordered sequence | if knows loacation u can retreive it 
+
+my_dict = {'key1': 'value1', 'key2': 'value2','key3': 'value3'}
+
+my_dict
+
+my_dict['key1']
+
+price_value = {'apple': '20', 'sunny': '30','copper': '40'}
+
+price_value ['apple']
+
+my_dicti = {'key1': 123, 'key2': [1,2,3],'key3':{'inside_key':100}}
+
+my_dicti['key2']
+
+my_dicti['key3']['inside_key']
+
+d={'key1':['a','b','c']}
+
+d
+
+d ['key1'][2]
+
+d ['key1'][2].upper()
+
+d ['key1'][2].lower()
+
+d1= {'key1':100,'key2':200}
+
+d1
+
+d1['key3']= 300
+
+d1
+
+d1['key1']= 400
+
+d1
+
+d1.keys()
+
+d1.values()
+
+d1.items()
+
+
+
+TUPLES  same as list but only difference is immutability, once  a value inside it cant be reassigned to protect it from getting altered as in closed set, they are always in ()
+
+t= (1,2,3)
+
+len(t)
+
+t=('one',2)
+
+t[0]
+
+t=('a','a','b')
+
+t[0]
+
+t.count('a')
+
+t.index('b')
+
+my_list= ['one','two','three']
+
+my_list
+
+my_list[0]='new'
+
+my_list
+
+t
+
+t[0]='one'
+
+
+
+**set** they are unordered collection of unique elements, meaning there can be only one representative of same value. values only
+
+my_set = set()
+
+my_set
+
+my_set.add(1)
+
+my_set
+
+my_set.add(2)
+
+my_set.add(3)
+
+my_set
+
+my_set_list=[1,1,1,1,2,2,2,2,2,3,3,3,3,3]
+
+set(my_set_list)
+
+
+
+**Boolean** true or false
+
+True
+
+False
+
+type(False)
+
+1>2
+
+1==1
+
+%%writefile myfile.txt
+Hello this is sa text file 
+this is the second line 
+this is the third line 
+
+myfile = open('myfile.txt')
+
+myfile = open('whoops_wrong_file')
+
+pwd
+
+myfile.read()
+
+myfile.read()
+
+myfile.seek(0)
+
+myfile.read()
+
+myfile.seek(0)
+
+myfile.readlines()
+
+myfile.close()
+
+with open('myfile.txt') as my_new_file:
+  contents = my_new_file.read()
+
+contents
+
+with open('myfile.txt',mode='w') as my_new_file:
+  contents = my_new_file.read()
+
+%%writefile my_newfile.txt
+Hello this is  text file 
+one is the second line 
+two is the third line 
+
+with open('my_newfile.txt', mode='r') as f:
+  print(f.read())
+
+with open('my_newfile.txt', mode='a') as f:
+ f.write('\n four on fourth line')
+
+with open('my_newfile.txt', mode='r') as f:
+  print(f.read())
+
+with open('mabjvhgqvcdsacch.txt', mode='w') as f:
+ f.write('i creayted this file')
+
+with open('mabjvhgqvcdsacch.txt', mode='r') as f:
+  print(f.read())
+
+
+
+comparison operation
+
+1<2
+
+1<2>3
+
+1<2 and 2<3
+
+100 == 1 or 2==2
+
+not 1==1
+
+not 400> 5000
+
+
+
+Usage if elif else etc. 
+
+hungry = True
+if hungry:
+ print ('i want food')
+
+loc = 'Bank'
+
+if loc == 'shop':
+ print ('its not a bank go to bank')
+elif loc=='Bank':
+   print ('its a bank take ur money')
+else: 
+ print ('get out of here') 
+
+name = 'surya'
+
+if name == 'samar':
+ print ('HI samar')
+elif name =='funny':
+   print ('HI funny')
+elif name =='bunny':
+  print ('HI bunny')
+elif name =='suresh':
+   print ('HI Suresh')  
+else: 
+ print ('HI surya') 
+
+ITERABLE - action for every item
+{FOR LOOP} 
+mylist[whatever is in ur list/tuple/dictionary]
+FOR (a,b) in mylist:
+  Print(a,b)
+
+i_list = [1,2,3,4,5,6,7,8,9,10]
+
+for num in i_list:
+  print(num)
+
+for num in i_list:
+  print('Hello')
+
+for num in i_list:
+  if num % 2 == 0:
+   print(num)
+
+for num in i_list:
+  if num % 2 == 0:
+   print(num)
+  else:
+   print(f'odd no:{num}')
+
+list_sum = 0
+
+for num in i_list:
+  list_sum = list_sum + num
+  print(list_sum)
+
+list_sum = 0
+
+for num in i_list:
+  list_sum = list_sum + num
+print(list_sum)
+
+my_string ='HELLO WORLD'
+
+for letter in my_string:
+  print(letter)
+
+
+for _ in 'HELLO WORLD':
+  print('cool!')
+
+tup = (1,2,3)
+
+for num in tup:
+  print(num)
+
+my_newlist=[(1,2),(3,4),(5,6),(7,8)]
+for num in my_newlist:
+  print(num)
+
+my_newlist=[(1,2),(3,4),(5,6),(7,8)]
+for (a,b) in my_newlist:
+  print(a)
+
+d= {'k1':1,'k2':2,'k3':3}
+for key,value in d.items():
+  print(key)
+
+d= {'k1':1,'k2':2,'k3':3}
+for value in d.values():
+  print(value)
+
